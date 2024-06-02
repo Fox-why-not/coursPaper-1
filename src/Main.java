@@ -1,4 +1,3 @@
-import java.util.Arrays;
 
 public class Main {
 
@@ -107,7 +106,7 @@ public class Main {
     }
 
     public static double avarageSalary() {
-        return sumSalary() / employees.length;
+        return (double) sumSalary() / employees.length;
     }
 
     public static double avarageSalary(int departament) {
@@ -117,7 +116,7 @@ public class Main {
                 countInDepartament++;
             }
         }
-        return sumSalary(departament) / countInDepartament;
+        return (double) sumSalary(departament) / countInDepartament;
     }
 
     public static void printFIO() {
